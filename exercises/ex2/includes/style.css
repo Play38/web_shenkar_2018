@@ -37,9 +37,11 @@ header {height:100px;}
 	color:#ffffff;
 }
 .cover_pic h1 {
-	padding-top:242px;
+	margin-top:242px;
+	margin-bottom:30px;
+	padding-bottom:10px;
 	font-size:120px;
-	margin-bottom:40px;
+	font-weight:normal;
 	border-bottom:#15a4fa solid 2px;
 	display:inline-block;
 }
