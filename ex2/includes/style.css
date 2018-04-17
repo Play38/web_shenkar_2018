@@ -1,0 +1,100 @@
+﻿* { 
+	padding:0;
+	margin:0;
+}
+a {text-decoration:none;}
+header, nav, main, section, footer {display:block;}
+.background_color {background-color:#f6f9f9;}
+.text_align {text-align:center;}
+.logo_and_titles_color {color:#2d3950;}
+header {height:100px;}
+.logo , #main_nav {margin-top:31px;} 
+/* haven't used line-height as it's doing problems to the logo link height*/
+.logo {
+	font-size:30px;
+	font-family:Lato;
+	font-weight:bold;
+	background: url(../images/logo.png) no-repeat left center;
+	width:197px;
+	text-align:right;
+	display:inline-block;
+}
+.logo, .logo a:visited,.logo a:hover {color:#2d3950;}
+#main_nav {
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:30px;
+	padding-left:113px;
+	display:inline-block;
+	color:#264951;
+}
+#main_nav a, #main_nav a:visited {color:#264951;}
+#main_nav a:hover {color:#897688;}
+.cover_pic {
+	background: url(../images/cover.jpg) no-repeat;
+	height:800px;
+	font-family:Arial;
+	color:#ffffff;
+}
+.cover_pic h1 {
+	padding-top:242px;
+	font-size:120px;
+	margin-bottom:30px;
+	border-bottom:#15a4fa solid 2px;
+	display:inline-block;
+}
+.cover_pic p {
+	padding-top:40px;
+	padding-bottom:67px;
+	font-size:40px;
+	}
+.cover_pic a {
+	border:#15a4fa solid 1px;
+	font-size:18px;
+	padding:20px;
+	color:#ffffff;
+}
+.cover_pic a:visited, .cover_pic a:hover {color:#ffffff;}
+.heb_info {height:339px;}
+.heb_info h3 {
+	font-family:Myriad Hebrew;
+	font-size:40px;
+	font-weight:normal;
+	padding-top:80px;
+	padding-bottom:10px;
+}
+.heb_info p {
+	font-family:Arial;
+	font-size:20px;
+	margin-bottom:13px;
+	color:#999999;
+}
+.programming_list {height:637px;}
+.programming_list h2 { 
+	padding-top:76px;
+	font-family:Myriad Hebrew;
+	font-weight:normal;
+	font-size:41px;
+	padding-bottom:71px;
+}
+.programming_list li{
+	font-family:Courier New;
+	font-size:30px;
+	list-style-type: none;
+	vertical-align:center;
+}
+.first_program_bullet {padding-bottom:20px;}
+.second_program_bullet {padding-bottom:30px;}
+.programming_list img {vertical-align:middle;}
+footer {
+	height:90px;
+	line-height:90px;
+}
+footer h6 {
+	display:inline-block;
+	font-weight:normal;
+	font-size:15px;
+	color:#999999;
+	padding-left:17px;
+	}
+footer img {vertical-align:middle;}
