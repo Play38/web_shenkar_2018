@@ -9,7 +9,6 @@ header, nav, main, section, footer {display:block;}
 .logo_and_titles_color {color:#2d3950;}
 header {height:100px;}
 .logo , #main_nav {margin-top:31px;} 
-/* haven't used line-height as it's doing problems to the logo link height*/
 .logo {
 	font-size:30px;
 	font-family:Lato;
