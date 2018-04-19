@@ -56,6 +56,13 @@ header {height:100px;}
 	color:#ffffff;
 }
 .cover_pic a:visited, .cover_pic a:hover {color:#ffffff;}
+.arrow_down a {
+	font-family: FontAwesome;
+	font-size:35px;
+	border-style:none;
+	display:inline-block;
+	margin-top:140px;
+}
 .heb_info {height:339px;}
 .heb_info h3 {
 	font-family:Myriad Hebrew;
