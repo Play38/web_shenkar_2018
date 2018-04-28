@@ -2,3 +2,138 @@
 	margin:0px;
 	padding:0px;
 }
+header, main, footer, body, section, nav, aside {display:block;}
+.clear {
+clear:both;
+}
+#wrapper {
+	width:1000px;
+	margin:0px auto;
+}
+.black_box {
+	background-color:#000000;
+	opacity:0.6;
+}
+.red_cover{
+	position:relative;
+	float:right;
+	background-color:#ee5f5b;
+}
+.logo {
+	background: url(../images/logo.png) no-repeat center center;
+	height:68px;
+	width:68px;
+	display:block;
+}
+.logo_style_lay1 {
+	margin-left:104px;
+	margin-top:10px;
+	margin-bottom:105px;
+}
+#main_nav_lay1 ul {
+	float:right;
+	list-style-type: none;
+	
+}
+#main_nav_lay1 li {
+	float:left;
+}
+.nav_link_style {
+	text-align:center;
+	text-decoration:none;
+	width:242px;
+	height:58px;
+	line-height:58px;
+	color:#ffffff;
+	display:block;
+}
+.nav_selected {background-color:#333333;}
+.nav_not_selected {background-color:#b94a48;}
+aside {
+	float:left;
+	background-color:#f2dede;
+	height:697px;
+	width:122px;
+	}
+.red_cover_lay1 {
+	width:849px;
+	height:268px;
+}
+.box1_lay1 {
+	position:absolute;
+	width:126px;
+	height:94px;
+	left:342px;
+	top:89px
+}
+.box2_lay1 {
+	position:relative;
+	margin:0px 67px;
+	top:492px;
+	height:175px;
+}
+.footer_lay1{
+	height:121px;
+	background-color:#d6d6d6;
+}
+
+/* here are the styles for layout 2*/
+.lay2_box_width {width:212px;}
+.logo_style_lay2 {
+	position:relative;
+	height:193px;
+	left:464px;
+	top:38px;
+}
+#main_nav_lay2 {
+	float:left;
+	height:758px;	
+	background-color:#333333;
+	
+}
+#main_nav_lay2 ul {
+	list-style-type: none;
+	
+}
+.red_cover_lay2 {
+	position:relative;
+	float:left;
+	background-color:#ee5f5b;
+	width:757px;
+	height:757px;
+	top:1px;
+}
+.box1_lay2 {
+	position:absolute;
+	height:366px;
+	left:30px;
+	
+}
+.box2_lay2 {
+	position:absolute;
+	top:385px;
+	left:30px;
+	height:500px;
+	
+}
+.box3_lay2 {
+	position:absolute;
+	left:272px;
+	height:560px;
+}
+.box4_lay2 {
+	position:absolute;
+	overflow:hidden;
+	left:272px;
+	height:306px;
+	top:579px;
+}
+.box5_lay2 {
+	position:absolute;
+	left:514px;
+	height:233px;
+}
+.footer_lay2 {
+	height:50px;
+	background-color:#d6d6d6;
+}
