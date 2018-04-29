@@ -14,11 +14,6 @@ clear:both;
 	background-color:#000000;
 	opacity:0.6;
 }
-.red_cover{
-	position:relative;
-	float:right;
-	background-color:#ee5f5b;
-}
 .logo {
 	background: url(../images/logo.png) no-repeat center center;
 	height:68px;
@@ -28,7 +23,7 @@ clear:both;
 .logo_style_lay1 {
 	margin-left:104px;
 	margin-top:10px;
-	margin-bottom:105px;
+	margin-bottom:48px;
 }
 #main_nav_lay1 ul {
 	float:right;
@@ -52,25 +47,28 @@ clear:both;
 aside {
 	float:left;
 	background-color:#f2dede;
-	height:697px;
-	width:122px;
+	height:696px;
+	width:121px;
 	}
 .red_cover_lay1 {
+	float:right;
+	background-color:#ee5f5b;
 	width:849px;
 	height:268px;
 }
 .box1_lay1 {
-	position:absolute;
+	position:relative;
 	width:126px;
 	height:94px;
-	left:342px;
+	margin:0px auto;
 	top:89px
 }
 .box2_lay1 {
 	position:relative;
-	margin:0px 67px;
-	top:492px;
+	margin: 0px auto;
 	height:175px;
+	width:692px;
+	top:398px;
 }
 .footer_lay1{
 	height:121px;
@@ -82,7 +80,7 @@ aside {
 .logo_style_lay2 {
 	position:relative;
 	height:193px;
-	left:464px;
+	left:465px;
 	top:38px;
 }
 #main_nav_lay2 {
