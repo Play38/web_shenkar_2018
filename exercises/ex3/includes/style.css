@@ -47,8 +47,8 @@ clear:both;
 	color:#ffffff;
 	display:block;
 }
-.nav_selected {background-color:#333333;}
-.nav_not_selected {background-color:#b94a48;}
+.nav_black {background-color:#333333;}
+.nav_red {background-color:#b94a48;}
 aside {
 	float:left;
 	background-color:#f2dede;
