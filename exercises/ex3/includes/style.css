@@ -134,6 +134,9 @@ aside {
 	height:233px;
 }
 .footer_lay2 {
+	position:fixed;
 	height:50px;
+	width:999px;
+    bottom:0px;
 	background-color:#d6d6d6;
 }
