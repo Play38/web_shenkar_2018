@@ -95,7 +95,6 @@ aside {
 	
 }
 .red_cover_lay2 {
-	position:relative;
 	float:left;
 	overflow: hidden;
 	background-color:#ee5f5b;
@@ -103,39 +102,35 @@ aside {
 	height:757px;
 	top:1px;
 }
+.red_cover_lay2 div {margin-left:30px;}
 .box1_lay2 {
-	position:absolute;
+	float:left;
 	height:366px;
-	left:30px;
-	
 }
 .box2_lay2 {
-	position:absolute;
-	top:386px;
-	left:30px;
-	height:500px;
+	float:left;
+	height:560px;
 	
 }
 .box3_lay2 {
-	position:absolute;
-	left:272px;
-	height:560px;
+	float:left;
+	height:223px;
 }
 .box4_lay2 {
-	position:absolute;
-	left:272px;
-	height:306px;
-	top:579px;
+	position:relative;
+	height:500px;
+	top:400px;
 }
 .box5_lay2 {
-	position:absolute;
-	left:514px;
-	height:233px;
+	position:relative;
+	left:242px;
+	top:90px;
+	height:306px;
 }
 .footer_lay2 {
 	position:fixed;
 	height:50px;
 	width:1000px;
-    bottom:0px;
+   	bottom:0px;
 	background-color:#d6d6d6;
 }
