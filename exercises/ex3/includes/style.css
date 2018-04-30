@@ -3,9 +3,8 @@
 	padding:0px;
 }
 header, main, footer, body, section, nav, aside {display:block;}
-.clear {
-clear:both;
-}
+/* classes for both layouts */
+.clear {clear:both;}
 #wrapper {
 	width:1000px;
 	margin:0px auto;
@@ -20,19 +19,6 @@ clear:both;
 	width:68px;
 	display:block;
 }
-.logo_style_lay1 {
-	margin-left:104px;
-	margin-top:10px;
-	margin-bottom:48px;
-}
-#main_nav_lay1 ul {
-	float:right;
-	list-style-type: none;
-	
-}
-#main_nav_lay1 li {
-	float:left;
-}
 .nav_link_style {
 	text-align:center;
 	text-decoration:none;
@@ -44,6 +30,18 @@ clear:both;
 }
 .nav_black {background-color:#333333;}
 .nav_red {background-color:#b94a48;}
+/* classes for layout1 */
+.logo_style_lay1 {
+	margin-left:104px;
+	margin-top:10px;
+	margin-bottom:48px;
+}
+#main_nav_lay1 ul {
+	float:right;
+	list-style-type: none;
+	
+}
+#main_nav_lay1 li {float:left;}
 aside {
 	float:left;
 	background-color:#f2dede;
@@ -60,29 +58,29 @@ aside {
 	position:relative;
 	width:126px;
 	height:94px;
-	margin:0px auto;
+	left:342px;
 	top:89px
 }
 .box2_lay1 {
+	float:left;
 	position:relative;
-	margin: 0px auto;
 	height:175px;
 	width:692px;
-	top:398px;
+	top:224px;
+	left:97px;
 }
 .footer_lay1{
 	height:121px;
 	background-color:#d6d6d6;
 }
 
-/* here are the styles for layout 2*/
+/* classes for layout 2*/
 .lay2_box_width {width:212px;}
 .logo_style_lay2 {height:193px;}
 .logo_style_lay2 a {
 	position:relative;
 	left:465px;
 	top:38px;
-	
 }
 #main_nav_lay2 {
 	float:left;
