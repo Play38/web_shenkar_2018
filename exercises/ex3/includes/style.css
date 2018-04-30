@@ -77,11 +77,12 @@ aside {
 
 /* here are the styles for layout 2*/
 .lay2_box_width {width:212px;}
-.logo_style_lay2 {
+.logo_style_lay2 {height:193px;}
+.logo_style_lay2 a {
 	position:relative;
-	height:193px;
 	left:465px;
 	top:38px;
+	
 }
 #main_nav_lay2 {
 	float:left;
