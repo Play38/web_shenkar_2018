@@ -95,12 +95,11 @@ aside {
 	
 }
 .red_cover_lay2 {
-	float:left;
+	position:relative;
 	overflow: hidden;
 	background-color:#ee5f5b;
 	width:757px;
 	height:757px;
-	top:1px;
 }
 .red_cover_lay2 div {margin-left:30px;}
 .box1_lay2 {
@@ -117,14 +116,14 @@ aside {
 	height:223px;
 }
 .box4_lay2 {
-	position:relative;
+	position:absolute;
 	height:500px;
-	top:400px;
+	top:385px;
 }
 .box5_lay2 {
-	position:relative;
+	position:absolute;
 	left:242px;
-	top:90px;
+	top:580px;
 	height:306px;
 }
 .footer_lay2 {
