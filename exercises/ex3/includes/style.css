@@ -55,10 +55,11 @@ aside {
 	height:268px;
 }
 .red_cover_lay1 div {
-	float:right;
-	background-color:#ee5f5b;
-	width:849px;
-	height:268px;
+	position:relative;
+	width:126px;
+	height:94px;
+	left:342px;
+	top:89px
 }
 .box2_lay1 {
 	float:left;
