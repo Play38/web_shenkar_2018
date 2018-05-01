@@ -28,8 +28,9 @@ header, main, footer, body, section, nav, aside {display:block;}
 	color:#ffffff;
 	display:block;
 }
-.nav_black {background-color:#333333;}
-.nav_red {background-color:#b94a48;}
+.nav_link_style2 {background-color:#333333;}
+.nav_link_style1 {background-color:#b94a48;}
+.cover_color {background-color:#ee5f5b;}
 /* classes for layout1 */
 .logo_style_lay1 {
 	margin-left:104px;
@@ -48,13 +49,12 @@ aside {
 	height:696px;
 	width:121px;
 	}
-.red_cover_lay1 {
+.cover_style_lay1 {
 	float:right;
-	background-color:#ee5f5b;
 	width:849px;
 	height:268px;
 }
-.red_cover_lay1 div {
+.cover_style_lay1 div {
 	position:relative;
 	width:126px;
 	height:94px;
@@ -92,14 +92,13 @@ aside {
 	list-style-type: none;
 	
 }
-.red_cover_lay2 {
+.cover_style_lay2 {
 	position:relative;
 	overflow: hidden;
-	background-color:#ee5f5b;
 	width:757px;
 	height:757px;
 }
-.red_cover_lay2 div {margin-left:30px;}
+.cover_style_lay2 div {margin-left:30px;}
 .box1_lay2 {
 	float:left;
 	height:366px;
