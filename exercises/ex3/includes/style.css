@@ -40,7 +40,6 @@ header, main, footer, body, section, nav, aside {display:block;}
 #main_nav_lay1 ul {
 	float:right;
 	list-style-type: none;
-	
 }
 #main_nav_lay1 li {float:left;}
 aside {
@@ -88,10 +87,7 @@ aside {
 	background-color:#333333;
 	
 }
-#main_nav_lay2 ul {
-	list-style-type: none;
-	
-}
+#main_nav_lay2 ul {list-style-type: none;}
 .cover_style_lay2 {
 	position:relative;
 	overflow: hidden;
@@ -106,7 +102,6 @@ aside {
 .box2_lay2 {
 	float:left;
 	height:560px;
-	
 }
 .box3_lay2 {
 	float:left;
