@@ -137,7 +137,7 @@ aside {
 	left:20px;
 	top:22px;
 }
-.left_side_lay3 p {
+.left_side_lay3  p {
 	position: absolute;
 	top:207px;
 	left:207px;
@@ -183,3 +183,8 @@ aside {
 .right_side_lay3 div:nth-child(2) {opacity:0.5;}
 .right_side_lay3 div:nth-child(3) {opacity:0.8;}
 .right_side_lay3 div:nth-child(4) {opacity:0.1;}
+.main_lay3 {
+	height:500px;
+	width:1000px;
+	background-color:#9d261d;
+}
