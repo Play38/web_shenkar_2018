@@ -11,7 +11,8 @@ $(document).ready(function(){
 function createBox(bottomBox, box_count) {
 	 $(".button").on("click", function () {
 	 	  	if(box_count<8){
-            $(bottomBox) .append("<div>test</div>"); //how to add css elements to an append??
+          	$(bottomBox) .append("<div>test</div>") .find("div:last") .css("opacity", Math.random()); //how to add css elements to an append??
+    
             console.log(box_count);
             box_count++;
            }
