@@ -3,7 +3,7 @@ $(document).ready(function(){
     var originOpacity;
     var bottomBox = $(".main_lay3");
     var bottomHoverBox = $(".main_lay3 div");
-    var upperBox =$("div")
+    var upperBox =$(".right_side_lay3 div")
     var box_count = 0;
     colorChange(originColor, originOpacity, upperBox, bottomHoverBox);
     createBox(bottomBox, box_count);
@@ -29,4 +29,5 @@ function colorChange(originColor, originOpacity, upperBox, bottomHoverBox) {
     , function () {
     	$(this).css({ "background-color": originColor, "opacity": originOpacity });
    	});
+
 }
