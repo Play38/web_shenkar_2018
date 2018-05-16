@@ -11,9 +11,17 @@ $(document).ready(function(){
 
 function createBox(bottomBox, box_count) {
 	 $(".button").on("click", function () {
-	 	  	if(box_count<8){
-          	$(bottomBox) .append("<div></div>") .find("div:last") .css("opacity", Math.random() );
+	 	  	if(box_count<100){
+          	$(bottomBox) .append("<div></div>") .find("div:last") .css("opacity", Math.random() ).hover(function () {
+    originColor = $(this).css("background-color");
+    originOpacity = $(this).css("opacity");
+    $(this).css({ "background-color": "#ffffff", "opacity": "1" });
+    }
+    , function () {
+    	$(this).css({ "background-color": originColor, "opacity": originOpacity });
+   	});
             box_count++;
+            
            }
     });
 }
