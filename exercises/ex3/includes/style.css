@@ -167,7 +167,7 @@ aside {
 .larg_lay3_width {width:167px;}
 .right_side_lay3 {
 	display:flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
     justify-content: flex-start;
     align-content: flex-start;
 	height:500px;
