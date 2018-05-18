@@ -11,7 +11,7 @@ $(document).ready(function first4Boxes () {
 	var firstboxes = 0;
 	while (firstboxes < 4) {
 	boxGenerator(".right_side_lay3");
-    firstboxes++;
+	firstboxes++;
 	}
 });
 function plusBoxes(boxCount, firstCheck) {
