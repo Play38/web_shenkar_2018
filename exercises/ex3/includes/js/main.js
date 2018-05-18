@@ -1,11 +1,9 @@
 $(document).ready(function(){
 	var originColor;
 	var originOpacity;
-	var boxCount = 1;
-	var firstCheck = 1;
 	var element;
 	boxGenerator(element);
-	plusBoxes(boxCount, firstCheck);
+	plusBoxes();
 })
 $(document).ready(function first4Boxes () {
 	var firstboxes = 0;
@@ -14,23 +12,13 @@ $(document).ready(function first4Boxes () {
 	firstboxes++;
 	}
 });
-function plusBoxes(boxCount, firstCheck) {
+function plusBoxes() {
     $(".button").on("click", function() {
-        if ((boxCount % 5) == 0) {
-        	if (firstCheck == 1) {
-            	firstCheck = 0;
-           	} 
-           	else {
-            	$(".main_lay3").css("height", "+=250");
-           	}
-           	boxCount = 1;
-        }
 	boxGenerator(".main_lay3");
-	boxCount++;
     });
 }
 function boxGenerator(element) {
-    return $(element).append("<div></div>").find("div:last").css("opacity", Math.random()).hover(function() {
+    return $(element).append("<section><div></div></section>").find("div:last").css("opacity", Math.random()).hover(function() {
         originColor = $(this).css("background-color");
         originOpacity = $(this).css("opacity");
         $(this).css({ "background-color": "#ffffff", "opacity": "1" });
