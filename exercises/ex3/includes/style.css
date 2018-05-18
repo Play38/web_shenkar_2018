@@ -184,15 +184,26 @@ aside {
 	flex-flow: row wrap;
     justify-content: flex-start;
     align-content: flex-start;
-	height:500px;
-	width:1000px;
 	background-color:#9d261d;
 }
-.main_lay3 section {
-	height:250px;
-	width:250px;
-	background-color:#9d261d;
-}
+	@media only screen and (max-width:500px)
+	{
+		.main_lay3 {
+		height:1000px;
+		width:500px;
+		}
+		.header_lay3{
+		width:500px;
+		}
+	}
+	@media only screen and (min-width:501px)
+	{
+		.main_lay3 {
+		height:500px;
+		width:1000px;
+		}
+	}
+.main_lay3 section {background-color:#9d261d;}
 .main_lay3 div {
 	height:250px;
 	width:250px;
