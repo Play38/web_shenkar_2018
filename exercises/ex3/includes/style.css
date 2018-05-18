@@ -179,12 +179,6 @@ aside {
 	width:250px;
 	background-color:#000000;
 }
-/*
-.right_side_lay3 div:first-child {opacity:0.2;}
-.right_side_lay3 div:nth-child(2) {opacity:0.5;}
-.right_side_lay3 div:nth-child(3) {opacity:0.8;}
-.right_side_lay3 div:nth-child(4) {opacity:0.1;}
-*/
 .main_lay3 {
 	display:flex;
 	flex-flow: row wrap;
@@ -198,5 +192,4 @@ aside {
 	height:250px;
 	width:250px;
 	background-color:#000000;
-	/*background-color:#000000;*/
 }
