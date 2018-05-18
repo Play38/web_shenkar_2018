@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    var originColor;
-    var originOpacity;
-    var boxCount = 1;
-    var firstCheck = 1;
-    var element;
+	var originColor;
+	var originOpacity;
+	var boxCount = 1;
+	var firstCheck = 1;
+	var element;
 	boxGenerator(element);
-    plusBoxes(boxCount, firstCheck);
+	plusBoxes(boxCount, firstCheck);
 })
 $(document).ready(function first4Boxes () {
 	var firstboxes = 0;
