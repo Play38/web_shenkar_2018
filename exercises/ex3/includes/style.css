@@ -5,10 +5,11 @@
 header, main, footer, body, section, nav, aside {display:block;}
 /* classes for both layouts */
 .clear {clear:both;}
+/* the wrapper for lay1,2 only*/
 #wrapper {
-	width:1000px;
-	margin:0px auto;
-}
+		width:1000px;
+		margin:0px auto;
+		}
 .black_box {
 	background-color:#000000;
 	opacity:0.6;
@@ -164,7 +165,7 @@ aside {
 	display:block;
 }
 .small_lay3_width {width:166.5px;}
-.larg_lay3_width {width:167px;}
+.large_lay3_width {width:167px;}
 .right_side_lay3 {
 	display:flex;
 	flex-flow: row wrap;
@@ -185,22 +186,25 @@ aside {
     justify-content: flex-start;
     align-content: flex-start;
 	background-color:#9d261d;
+	
 }
-	@media only screen and (max-width:500px)
+	@media only screen and (max-width:1000px)
 	{
 		.main_lay3 {
-		height:1000px;
-		width:500px;
+			height:1000px;
+			width:500px;
 		}
-		.header_lay3{
-		width:500px;
-		}
+		.header_lay3{width:500px;}
 	}
-	@media only screen and (min-width:501px)
+	@media only screen and (min-width:999px)
 	{
 		.main_lay3 {
 		height:500px;
 		width:1000px;
+		}
+		#wrapperl3 {
+		width:1000px;
+		margin:0px auto;
 		}
 	}
 .main_lay3 section {background-color:#9d261d;}
