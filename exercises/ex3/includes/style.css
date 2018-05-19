@@ -166,22 +166,16 @@ aside {
 }
 .small_lay3_width {width:166.5px;}
 .large_lay3_width {width:167px;}
-.right_side_lay3 {
+.right_side_lay3, .main_lay3 {
 	display:flex;
 	flex-flow: row wrap;
     justify-content: flex-start;
     align-content: flex-start;
+    background-color:#9d261d;
+}
+.right_side_lay3 {
 	height:500px;
 	width:500px;
-	background-color:#9d261d;
-}
-.main_lay3 {
-	display:flex;
-	flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-	background-color:#9d261d;
-	
 }
 .right_side_lay3 div , .main_lay3 div  {
 	height:250px;
