@@ -169,9 +169,9 @@ aside {
 .right_side_lay3, .main_lay3 {
 	display:flex;
 	flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    background-color:#9d261d;
+	justify-content: flex-start;
+	align-content: flex-start;
+	background-color:#9d261d;
 }
 .right_side_lay3 {
 	height:500px;
@@ -182,8 +182,7 @@ aside {
 	width:250px;
 	background-color:#000000;
 }
-	@media only screen and (max-width:998px)
-	{
+	@media only screen and (max-width:998px){
 		.main_lay3 {height:1000px;}
 		.header_lay3{width:500px;}
 		#wrapperl3 {
@@ -191,8 +190,7 @@ aside {
 			margin:0px auto;
 		}
 	}
-	@media only screen and (min-width:999px)
-	{
+	@media only screen and (min-width:999px){
 		.main_lay3 {height:500px;}
 		#wrapperl3 {
 			width:1000px;
