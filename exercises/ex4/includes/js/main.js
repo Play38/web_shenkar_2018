@@ -1,16 +1,5 @@
 var selectAge = document.getElementById("selectAge");
 var nameCheckFalse = document.getElementById("nameCheckFalse");
-var contents;
-
-/*for (let i = 1; i <= 100; i++) {
-	if (i==1)
-		contents+= "<option value=''>" + "Please select option" + "</option>";
-  contents += "<option>" + i + "</option>";
-}
-contents+= "<option value=''>" + "Too much" + "</option>";
-
-selectAge.innerHTML = contents;
-*/
 var slider = new Slider('#coffeeTemp', {
 	formatter: function(value) {
 		return 'Current value: ' + value;
